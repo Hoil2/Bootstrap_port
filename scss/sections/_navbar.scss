@@ -1,0 +1,14 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.menu {
+    @include gradient;
+    li {
+        padding: 0 0.7rem;
+        a {
+            color: $white !important;
+            text-transform: capitalize; // 첫글자 대문자로 바꾸기
+            font-weight: 600;
+        }
+    }
+}
