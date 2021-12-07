@@ -11254,6 +11254,11 @@ textarea.form-control-lg {
 .campanies__logo-box img:hover {
   filter: grayscale(120);
 }
+.campanies .center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .footer {
   padding-top: 1rem;
